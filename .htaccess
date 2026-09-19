@@ -1,0 +1,144 @@
+# ==========================================================================
+# BayBot Dynamics - Apache configuration
+#
+# Works on GoDaddy Linux / cPanel hosting and any generic Apache host.
+# Nothing here hardcodes a domain name, so the same file is valid on
+# baybotdynamics.com, a staging subdomain, or a subfolder.
+#
+# Every block is wrapped in <IfModule> so that a host missing one of these
+# modules degrades quietly instead of returning HTTP 500.
+# ==========================================================================
+
+# Serve index.html for a bare directory request.
+DirectoryIndex index.html
+
+# Don't expose a file listing when a directory has no index.
+Options -Indexes
+
+# --------------------------------------------------------------------------
+# Character set
+# --------------------------------------------------------------------------
+AddDefaultCharset UTF-8
+
+# --------------------------------------------------------------------------
+# MIME types
+# Older Apache builds (still common on shared hosting) don't know .webp or
+# .woff2 and send them as text/plain, which breaks the hero image.
+# --------------------------------------------------------------------------
+<IfModule mod_mime.c>
+    AddType image/webp                   .webp
+    AddType image/avif                   .avif
+    AddType image/svg+xml                .svg
+    AddType font/woff2                   .woff2
+    AddType application/manifest+json    .webmanifest
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # RewriteBase is intentionally omitted. Leaving it out lets the rules
+    # below work unchanged at a domain root or in a subfolder. If the site
+    # lives in a subfolder and rewrites misbehave, set it explicitly, e.g.
+    # RewriteBase /baybot/
+
+    # ----------------------------------------------------------------------
+    # Force HTTPS.
+    # Two conditions, because GoDaddy shared hosting terminates TLS at a
+    # proxy: %{HTTPS} reads "off" there even on a secure request, so the
+    # X-Forwarded-Proto header is the reliable signal. Requiring both to be
+    # non-secure avoids a redirect loop on proxied hosts.
+    # ----------------------------------------------------------------------
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+    RewriteCond %{HTTP_HOST} !=localhost
+    RewriteCond %{HTTP_HOST} !^127\.
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+    # ----------------------------------------------------------------------
+    # Extensionless URLs.
+    # Maps /about and /about/ to about.html, so the URL style the live site
+    # already uses keeps working and inbound links don't 404. The .html URLs
+    # stay valid too, which is what makes the site portable to hosts that
+    # have no rewrite support at all.
+    # ----------------------------------------------------------------------
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^(.+?)/?$ $1.html [L]
+
+    # ----------------------------------------------------------------------
+    # Optional: canonicalize the hostname.
+    # Pick ONE and uncomment it, only if you care whether the site answers on
+    # www or the bare domain. Both are left off by default because the wrong
+    # choice breaks a deployment that intends the other.
+    # ----------------------------------------------------------------------
+    # Force www:
+    # RewriteCond %{HTTP_HOST} !^www\. [NC]
+    # RewriteCond %{HTTP_HOST} !=localhost
+    # RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+    # Force non-www:
+    # RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    # RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+</IfModule>
+
+# --------------------------------------------------------------------------
+# Compression
+# --------------------------------------------------------------------------
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css
+    AddOutputFilterByType DEFLATE application/javascript application/json
+    AddOutputFilterByType DEFLATE image/svg+xml
+    # Images and fonts are already compressed; re-compressing wastes CPU.
+</IfModule>
+
+# --------------------------------------------------------------------------
+# Caching
+# Media and stylesheets are cached hard; HTML is not, so a redeploy is
+# visible immediately instead of being pinned by a stale browser cache.
+# --------------------------------------------------------------------------
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault                        "access plus 1 month"
+
+    ExpiresByType text/html               "access plus 0 seconds"
+    ExpiresByType image/png               "access plus 1 year"
+    ExpiresByType image/jpeg              "access plus 1 year"
+    ExpiresByType image/webp              "access plus 1 year"
+    ExpiresByType image/x-icon            "access plus 1 year"
+    ExpiresByType image/svg+xml           "access plus 1 year"
+    ExpiresByType video/mp4               "access plus 1 year"
+    ExpiresByType text/css                "access plus 1 month"
+    ExpiresByType application/javascript  "access plus 1 month"
+    ExpiresByType font/woff2              "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(html)$">
+        Header set Cache-Control "no-cache, must-revalidate"
+    </FilesMatch>
+
+    # Basic hardening. No Content-Security-Policy here: the pages load fonts
+    # and icons from Google and cdnjs, so a policy needs to be written to
+    # match whatever CDNs you end up keeping.
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# --------------------------------------------------------------------------
+# Build-time folders
+# tools/ holds the model build script and data/ its source JSON. Neither is
+# part of the site, so they are hidden. Unanchored so it also works when the
+# site is deployed in a subfolder.
+# --------------------------------------------------------------------------
+<IfModule mod_alias.c>
+    RedirectMatch 404 /(tools|data)/
+</IfModule>
+
+# --------------------------------------------------------------------------
+# Error pages
+# Leading slash resolves from the domain root; change to a relative path if
+# you deploy into a subfolder.
+# --------------------------------------------------------------------------
+ErrorDocument 404 /404.html

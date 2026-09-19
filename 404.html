@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+  Deliberately self-contained: all styles are inline and no images are
+  referenced. An error page is served under the URL that failed (/a/b/c), so
+  relative asset paths would resolve against that URL and break. Keeping this
+  page dependency-free means it renders correctly on any host and any depth.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, follow">
+    <title>Page Not Found | BayBot Dynamics</title>
+    <style>
+        :root {
+            --primary-color: #0066cc;
+            --primary-dark: #004c99;
+            --secondary-color: #00cc88;
+            --dark-bg: #0a0e1a;
+            --medium-gray: #4a5568;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem 1.5rem;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            color: var(--medium-gray);
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .code {
+            font-size: clamp(4rem, 15vw, 8rem);
+            font-weight: 800;
+            line-height: 1;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h1 {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            color: var(--dark-bg);
+            margin: 1rem 0 0.75rem;
+        }
+
+        p { max-width: 34rem; margin: 0 auto 2rem; }
+
+        .actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        a.btn {
+            display: inline-block;
+            padding: 0.875rem 1.75rem;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 9999px;
+            border: 2px solid transparent;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(0, 102, 204, 0.3);
+        }
+
+        .btn-outline {
+            color: var(--dark-bg);
+            border-color: var(--dark-bg);
+        }
+
+        a.btn:hover { transform: translateY(-2px); }
+        .btn-outline:hover { background: var(--dark-bg); color: #fff; }
+
+        a.btn:focus-visible {
+            outline: 3px solid var(--primary-color);
+            outline-offset: 3px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            a.btn { transition: none; }
+            a.btn:hover { transform: none; }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="code">404</div>
+        <h1>We couldn't find that page</h1>
+        <p>
+            The page you're looking for may have moved or no longer exists.
+            Let's get you back to something useful.
+        </p>
+        <div class="actions">
+            <a href="/" class="btn btn-primary">Back to Home</a>
+            <a href="/contact" class="btn btn-outline">Contact Us</a>
+        </div>
+    </main>
+</body>
+</html>

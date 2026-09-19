@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# A Sitemap directive has to be an absolute URL, which is the one thing that
+# cannot be domain-agnostic. Uncomment and set it to the live domain once the
+# site has a permanent home, e.g.
+# Sitemap: https://baybotdynamics.com/sitemap.xml

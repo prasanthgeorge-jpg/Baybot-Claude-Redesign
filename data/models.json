@@ -1,0 +1,579 @@
+{
+  "models": [
+    {
+      "id": "pudu-cc1",
+      "name": "PUDU CC1",
+      "category": "cleaning",
+      "description": "Autonomous wet and dry floor cleaning for all floor types.",
+      "image": "assets/images/models/pudu-cc1.png",
+      "image_alt": "PUDU CC1 autonomous commercial floor cleaning robot",
+      "title": "Autonomous Wet and Dry Floor Cleaning Robot for All Floor Types",
+      "summary_html": "<p>The <strong>Pudu CC1</strong> is a <strong>smart autonomous cleaning robot</strong> designed for commercial and industrial environments. It combines multiple cleaning functions into a single robot, making it ideal for offices, hotels, hospitals, shopping malls, and public facilities where consistent high-quality cleaning is critical.</p>",
+      "video": "A3_IVfmUMGA",
+      "industries": [
+        "Hospitals & Healthcare",
+        "Malls",
+        "Hotels",
+        "Offices"
+      ],
+      "features": [
+        {
+          "name": "Wet scrubbing and dry sweeping",
+          "html": "<p>Seamlessly performs wet scrubbing and dry sweeping within a single system, ensuring thorough removal of dust, spills, and stains across diverse floor surfaces.</p>"
+        },
+        {
+          "html": "AI-driven sensors automatically recognize different floor materials and adjust cleaning modes in real time to deliver safe, efficient, and optimized results."
+        },
+        {
+          "html": "Uses intelligent mapping and localization to navigate complex environments, ensuring complete coverage while smoothly transitioning between multiple floor types."
+        }
+      ],
+      "functions": [
+        {
+          "title": "Smart Dual-Mode Cleaning",
+          "html": "<p>Automatically performs <strong>dry sweeping and wet mopping in a single cleaning cycle</strong>. The robot intelligently controls brush rotation, suction, and water flow to remove dust, debris, spills, and stains efficiently without manual intervention.</p>",
+          "image": "assets/images/models/functions/pudu-cc1-1.png"
+        },
+        {
+          "title": "Intelligent Surface Adaptation",
+          "html": "<p>Detects different <strong>floor types and surface conditions in real time</strong> and dynamically adjusts cleaning pressure, speed, and moisture level. This ensures effective cleaning while protecting delicate surfaces and preventing over-wetting.</p>",
+          "image": "assets/images/models/functions/pudu-cc1-2.png"
+        }
+      ],
+      "cms_slug": "autonomous-wet-and-dry-floor-cleaning-robot-for-all-floor-types"
+    },
+    {
+      "id": "pudu-sh1",
+      "name": "PUDU SH1",
+      "category": "cleaning",
+      "description": "Smart upright scrubber dryer for effortless floor care.",
+      "image": "assets/images/models/pudu-sh1.png",
+      "image_alt": "PUDU SH1 smart upright scrubber dryer",
+      "title": "Smart Upright Scrubber Dryer for Effortless Floor Care",
+      "summary_html": "<p>The PUDU SH1 is a smart upright scrubber dryer robot designed for efficient wet floor cleaning in commercial environments. It combines scrubbing and drying in one autonomous system to deliver fast, safe, and consistent cleaning results.</p>",
+      "overview_html": "Multi dimensional cleaning,350rpm Speed 75kg Down Pressure.20Kpa Suction Power.Real-time components Monitoring.Air-liquid-debris Seperation.Diversified Consumables.Touch Screen Interface.Easy Changeable Battery",
+      "video": "rz84r-gcG7E",
+      "industries": [
+        "Gyms"
+      ],
+      "features": [
+        {
+          "name": "Smart, hands‑free floor care",
+          "html": "<p>This autonomous 32‑inch floor scrubbing robot delivers deep cleaning for large spaces with a single pass.</p><p>Lidar and 3D sensors map your environment, helping the bot safely avoid people, walls, and obstacles.</p><p>Multiple cleaning modes let you handle daily maintenance or heavy‑duty scrubbing without manual effort.</p><p>Real‑time status monitoring and automatic docking keep your floors spotless with minimal supervision.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Hybrid Scrubbing and Drying Performance",
+          "html": "<p>Combines the powerful cleaning action of a walk-behind scrubber dryer with automated operation to deliver deep scrubbing and fast drying in a single pass, ensuring spotless and safe floors across large commercial spaces</p>",
+          "image": "assets/images/models/functions/pudu-sh1-1.png"
+        },
+        {
+          "title": "Enhanced Productivity with Autonomous Operation",
+          "html": "<p>Automates traditional walk-behind cleaning processes to reduce manual effort while increasing coverage speed and consistency, enabling facilities to maintain high cleanliness standards with fewer resources</p>",
+          "image": "assets/images/models/functions/pudu-sh1-2.png"
+        },
+        {
+          "title": "Smart AI-Powered Operational Support",
+          "html": "<p>Utilizes intelligent automation to assist construction teams with monitoring, guidance, and workflow optimization. By reducing human error and improving response time, it ensures safer operations, higher productivity, and smarter project execution .</p>"
+        }
+      ],
+      "cms_slug": "smart-upright-scrubber-dryer-for-effortless-floor-care"
+    },
+    {
+      "id": "pudu-mt1-max",
+      "name": "PUDU MT1 Max",
+      "category": "cleaning",
+      "description": "AI-powered floor cleaning for large environments.",
+      "image": "assets/images/models/pudu-mt1-max.png",
+      "image_alt": "PUDU MT1 Max AI-powered floor cleaning robot",
+      "title": "Autonomous AI-Powered Floor Cleaning Robot for Large Environments",
+      "summary_html": "<p>The PUDU MT1 Max is an advanced autonomous cleaning robot designed for large-scale commercial and industrial environments.</p>",
+      "overview_html": "<p>AI-powered 3D robotic sweeper with 3D LiDAR + multi-sensor fusion for accurate mapping and real-time obstacle avoidance in complex environmentsHandles all debris types (cigarette butts to large bottles) with 70cm sweeping width, 35L trash capacity, and edge-to-edge (0cm) cleaningAdaptive cleaning adjusts power/posture automatically; covers 2200㎡/h standard, 7000㎡/h spot cleaning with 5-10h runtime (8h standard)</p>",
+      "video": "gqR5WMmMpMc",
+      "industries": [
+        "Warehousing",
+        "Manufacturing",
+        "Parking Facilities",
+        "Retail"
+      ],
+      "features": [
+        {
+          "name": "Intelligent Dry Sweeping",
+          "html": "<p>Intelligent Dry Sweeping is a technique in which the bots are used to clean the respective areas without the water or any chemical consumptions. Efficiently removes dust and debris using AI-powered perception.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Intelligent Dry Sweeping",
+          "html": "<p>Automatically performs dry sweeping with optimized brush speed and suction.</p>",
+          "image": "assets/images/models/functions/pudu-mt1-max-1.jpg"
+        }
+      ],
+      "cms_slug": "autonomous-ai-powered-floor-cleaning-robot-for-large-environments"
+    },
+    {
+      "id": "pudu-mt1-vac",
+      "name": "PUDU MT1 Vac",
+      "category": "cleaning",
+      "description": "High-power autonomous vacuum cleaning for large areas.",
+      "image": "assets/images/models/pudu-mt1-vac.png",
+      "image_alt": "PUDU MT1 Vac autonomous vacuum cleaning robot",
+      "title": "Autonomous High-Power Vacuum Cleaning Robot for Large Areas",
+      "summary_html": "<p>The PUDU MT1 Vac is a vacuum-focused autonomous cleaning robot designed for large commercial and industrial spaces. It delivers powerful suction to efficiently remove fine dust, debris, and particulate matter, ensuring consistent cleanliness in high-traffic environments.</p>",
+      "overview_html": "<p>The PUDU MT1 Vac is a vacuum-focused autonomous cleaning robot designed for large commercial and industrial spaces. It delivers powerful suction to efficiently remove fine dust, debris, and particulate matter, ensuring consistent cleanliness in high-traffic environments.</p>",
+      "video": "MEN5tiNOJqw",
+      "industries": [
+        "Warehousing",
+        "Manufacturing",
+        "Retail",
+        "Public Facilities"
+      ],
+      "features": [
+        {
+          "name": "High-Power Vacuum Cleaning",
+          "html": "<p>Provides strong suction for effective removal of fine dust and debris across wide areas.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Automatically performs autonomous vacuum",
+          "html": "<p>Automatically performs autonomous vacuum cleaning with optimized suction and path planning.</p>",
+          "image": "assets/images/models/functions/pudu-mt1-vac-1.jpg"
+        }
+      ],
+      "cms_slug": "autonomous-high-power-vacuum-cleaning-robot-for-large-areas"
+    },
+    {
+      "id": "pudu-cc1-pro",
+      "name": "PUDU CC1 Pro",
+      "category": "cleaning",
+      "description": "Multi-function floor cleaning for commercial facilities.",
+      "image": "assets/images/models/pudu-cc1-pro.png",
+      "image_alt": "PUDU CC1 Pro multi-function commercial floor cleaning robot",
+      "title": "Autonomous Multi-Function Floor Cleaning Robot for Commercial Facilities",
+      "summary_html": "<p>The PUDU CC1 Pro is a professional-grade autonomous cleaning robot designed for demanding commercial environments. It integrates sweeping, scrubbing, vacuuming, and mopping into a single intelligent system, delivering consistent, high-quality floor cleaning.</p>",
+      "overview_html": "<p>AI-powered 4-in-1 commercial cleaning robot (sweeps, scrubs, vacuums, mops) with real-time rear camera stain detection and automatic spot re-cleaning. 1500-3000㎡/h coverage with up to 9h runtime (silent mopping); 15L clean/15L waste tanks with optional auto-refill docking station</p>",
+      "video": "Opu4vDmpAtc",
+      "industries": [
+        "Hospitals & Healthcare",
+        "Malls",
+        "Hotels",
+        "Offices"
+      ],
+      "features": [
+        {
+          "name": "Wet Scrubbing and Dry Cleaning",
+          "html": "<p>Combines wet scrubbing, vacuuming, and dry cleaning for comprehensive floor care.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Automatically performs sweeping",
+          "html": "<p>Automatically performs sweeping, scrubbing, vacuuming, and mopping in a single cleaning cycle.</p>",
+          "image": "assets/images/models/functions/pudu-cc1-pro-1.png"
+        }
+      ],
+      "cms_slug": "autonomous-multi-function-floor-cleaning-robot-for-commercial-facilities"
+    },
+    {
+      "id": "pudu-bg1-pro",
+      "name": "PUDU BG1 Pro",
+      "category": "cleaning",
+      "description": "Industrial-grade cleaning for high-traffic facilities.",
+      "image": "assets/images/models/pudu-bg1-pro.png",
+      "image_alt": "PUDU BG1 Pro industrial-grade cleaning robot",
+      "title": "PUDU BG1 Pro – Industrial-Grade Autonomous Cleaning for Large-Scale Facilities",
+      "summary_html": "<p>Take control of large-area cleaning with the PUDU BG1 Pro—an industrial-grade autonomous solution designed to cut labor costs, boost efficiency, and maintain spotless floors around the clock.</p>",
+      "overview_html": "<p>Autonomous, powerful, and built for scale—BG1 Pro transforms how large spaces stay clean.</p>",
+      "video": "q2EpTdhLVg8",
+      "industries": [
+        "Casinos",
+        "Hospitals & Healthcare",
+        "Manufacturing",
+        "Warehousing",
+        "Retail",
+        "Malls",
+        "Public Facilities",
+        "Event Venues",
+        "Automotive",
+        "Logistics"
+      ],
+      "features": [
+        {
+          "name": "2-in-1 Cleaning System",
+          "html": "<p>Simultaneous sweeping and scrubbing in a single pass for maximum efficiency</p>"
+        },
+        {
+          "name": "High-Capacity Water Tanks",
+          "html": "<p>Large clean and wastewater tanks enable extended, uninterrupted cleaning cycles</p>"
+        },
+        {
+          "name": "AI-Powered Dirt Detection",
+          "html": "<p>Automatically adjusts cleaning intensity based on real-time floor conditions</p>"
+        },
+        {
+          "name": "Edge & Corner Cleaning Technology",
+          "html": "<p>Extends brush reach to ensure thorough cleaning along walls and tight spaces</p>"
+        },
+        {
+          "name": "Long Runtime for Large Areas",
+          "html": "<p>Designed to handle expansive facilities without frequent human intervention</p>"
+        },
+        {
+          "name": "Multi-Surface Cleaning Capability",
+          "html": "<p>Effective on a wide range of commercial and industrial flooring types</p>"
+        },
+        {
+          "name": "Remote Monitoring & Management",
+          "html": "<p>Track performance, schedules, and cleaning status through centralized control</p>"
+        },
+        {
+          "name": "Low-Noise Operation",
+          "html": "<p>Suitable for day or night cleaning without disrupting operations</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Autonomous Sweeping & Scrubbing",
+          "html": "<ul><li>Performs dry debris removal and wet floor scrubbing simultaneously in a single pass</li></ul>"
+        },
+        {
+          "title": "Intelligent Route Planning",
+          "html": "<ul><li>Automatically maps the environment and optimizes cleaning paths for maximum coverage</li></ul>"
+        },
+        {
+          "title": "Adaptive Cleaning Control",
+          "html": "<ul><li>Detects dirt levels and adjusts water flow, pressure, and cleaning intensity in real time</li></ul>"
+        },
+        {
+          "title": "Edge & Corner Cleaning",
+          "html": "<ul><li>Actively cleans along walls, edges, and tight spaces to ensure full-area coverage</li></ul>"
+        }
+      ],
+      "spec_sections": [
+        {
+          "title": "Performance",
+          "html": "<p>Cleaning Mode: Sweeping + Scrubbing (2-in-1)</p><p>Cleaning Efficiency: Up to ~10,000–15,000 sq.ft/hour (varies by environment)</p><p>Max Runtime: Up to 6–8 hours continuous operation</p><p>Cleaning Width: ~20–28 inches (approx.)</p>"
+        },
+        {
+          "title": "Water System",
+          "html": "<ul><li><strong>Clean Water Tank Capacity:</strong> ~70–80 liters</li><li><strong>Waste Water Tank Capacity:</strong> ~60–70 liters</li><li><strong>Automatic Water Management:</strong> Yes (with docking station)</li></ul>"
+        }
+      ],
+      "cms_slug": "pudu-bg1-pro-industrial-grade-autonomous-cleaning-for-large-scale-facilities"
+    },
+    {
+      "id": "pudu-kettybot-pro",
+      "name": "PUDU KettyBot Pro",
+      "category": "delivery",
+      "description": "Delivery and reception robot with an advertising display.",
+      "image": "assets/images/models/pudu-kettybot-pro.jpg",
+      "image_alt": "PUDU KettyBot Pro delivery and reception robot with advertising display",
+      "title": "KettyBot Pro – Delivery & Reception Robot with an Ad Display",
+      "summary_html": "<p>KettyBot Pro autonomously guides passengers, provides directions, and delivers information across airports, malls, and hospitals.</p>",
+      "overview_html": "KettyBot Pro is an autonomous passenger guidance robot designed for high-footfall environments. It assists visitors by providing directions, displaying information, and guiding them to destinations such as gates, counters, shops, or departments.",
+      "video": "YxVsOKFdj_c",
+      "features": [
+        {
+          "name": "Autonomous Navigation",
+          "html": "<p>Safely navigates complex indoor spaces using LiDAR and vision sensors.</p>"
+        },
+        {
+          "name": "Interactive Touch Display",
+          "html": "<p>Large screen displays maps, directions, and announcements.</p>"
+        },
+        {
+          "name": "Multilingual Assistance",
+          "html": "<p>Supports multiple languages for diverse passenger groups.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Route Guidance",
+          "html": "<p>Guides passengers to gates, counters, rooms, or exits.</p>",
+          "image": "assets/images/models/functions/pudu-kettybot-pro-1.png"
+        },
+        {
+          "title": "Information Assistance",
+          "html": "<p>Provides real-time facility and service information.</p>",
+          "image": "assets/images/models/functions/pudu-kettybot-pro-2.png"
+        }
+      ],
+      "details": [
+        {
+          "title": "Design & Hardware",
+          "html": "<p>Equipped with a high-resolution touchscreen, LiDAR sensors, speakers, cameras, and a long-life battery for all-day guidance operations.</p>"
+        },
+        {
+          "title": "Intelligent Operation",
+          "html": "<p>KettyBot Pro combines AI navigation and interactive interfaces to enhance passenger flow and reduce staff workload.</p>"
+        },
+        {
+          "title": "Obstacle Avoidance",
+          "html": "<p>Advanced obstacle detection ensures smooth navigation around crowds, luggage, and furniture.</p>"
+        }
+      ],
+      "cms_slug": "kettybot-pro-delivery-reception-robot-with-an-ad-display"
+    },
+    {
+      "id": "bellabot-pro",
+      "name": "BellaBot Pro",
+      "category": "delivery",
+      "description": "Premium autonomous delivery and advertising robot.",
+      "image": "assets/images/models/bellabot-pro.png",
+      "image_alt": "BellaBot Pro autonomous delivery and advertising robot",
+      "title": "Premium Autonomous Delivery and Advertising Robot",
+      "summary_html": "<p>The BellaBot Pro is a high-end commercial delivery robot designed for restaurants, hotels, and retail environments. It combines autonomous navigation, interactive display features, and advertising capabilities, enhancing service efficiency and customer engagement.</p>",
+      "overview_html": "<p>Premium delivery robot with 65cm path clearance, vehicle-grade chassis, and VSLAM+ navigation for marker-less deployment up to 200,000㎡.</p><p>12-24h runtime, 4.5h charge, omni-sense safety (3x RGBD, LiDAR, 5400 obstacles/min detection) for crowded restaurants, hotels, and malls</p>",
+      "video": "BiJtudsRqkw",
+      "industries": [
+        "Hospitals & Healthcare",
+        "Hotels",
+        "Retail",
+        "Event Venues"
+      ],
+      "features": [
+        {
+          "name": "Interactive Advertising Display: Features a vibrant screen for advertisements and customer interaction, promoting products and services.",
+          "html": "<p>Autonomously delivers items to customers, navigates complex environments, and displays interactive advertisements on its screen to engage customers.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Adjusts navigation speed and route dynamically based on crowd density and obstacles while maintaining smooth delivery and display operation.",
+          "html": "<p>Adjusts navigation speed and route dynamically based on crowd density and obstacles while maintaining smooth delivery and display operation.</p>",
+          "image": "assets/images/models/functions/bellabot-pro-1.jpg"
+        }
+      ],
+      "cms_slug": "premium-autonomous-delivery-and-advertising-robot"
+    },
+    {
+      "id": "pudubot-2",
+      "name": "PuduBot 2",
+      "category": "delivery",
+      "description": "Versatile commercial delivery robot.",
+      "image": "assets/images/models/pudubot-2.png",
+      "image_alt": "PuduBot 2 commercial delivery robot",
+      "title": "Universal Commercial Delivery Robot",
+      "summary_html": "<p>The PuduBot 2 is a flexible and reliable commercial delivery robot designed for a variety of service environments, offering efficient autonomous navigation and item delivery.</p>",
+      "overview_html": "<p>Universal delivery robot with marker-less PUDU VSLAM+ navigation for high-ceiling (30m) and extra-large spaces (40,000㎡) with 75% faster deployment. Four delivery modes (Delivery, Birthday, Cruise, Dish Return) with 10-24h LFP battery life, 3h auto-charging, and 80cm path clearance</p>",
+      "video": "45vUOogXXQc",
+      "industries": [
+        "Hotels",
+        "Offices",
+        "Retail",
+        "Hospitals & Healthcare"
+      ],
+      "features": [
+        {
+          "name": "Autonomous Navigation and Delivery: Smoothly delivers items across complex environments, optimizing routes for efficiency.",
+          "html": "<p>Automatically transports items from one point to another while navigating obstacles and maintaining operational efficiency.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Adjusts movement speed",
+          "html": "<p>Adjusts movement speed, route, and obstacle avoidance strategies based on environmental conditions and human traffic patterns.</p>",
+          "image": "assets/images/models/functions/pudubot-2-1.jpg"
+        }
+      ],
+      "cms_slug": "universal-commercial-delivery-robot"
+    },
+    {
+      "id": "pudu-t150",
+      "name": "PUDU T150",
+      "category": "industrial",
+      "description": "Autonomous light-payload industrial delivery robot.",
+      "image": "assets/images/models/pudu-t150.png",
+      "image_alt": "PUDU T150 light-payload industrial delivery robot",
+      "title": "Autonomous Light-Payload Industrial Delivery Robot",
+      "summary_html": "<p>Light Payload Industrial Delivery Robot - PUDU T150</p>",
+      "overview_html": "<p>The PUDU T150 is a compact autonomous industrial delivery robot designed for efficient light-payload transportation in manufacturing and warehouse environments.</p>",
+      "video": "51ygkddV-YE",
+      "industries": [
+        "Automotive",
+        "Warehousing",
+        "Electronics",
+        "Logistics"
+      ],
+      "features": [
+        {
+          "name": "Industrial-Grade Certified",
+          "html": "<p>Meeting rigorous ISO 3691-4 standards and holding industrial-specific CE certification, this robot ensures operational safety and production stability through professional-grade compliance and quality assurance.</p>"
+        },
+        {
+          "name": "Easily Adapts to Complex Environments",
+          "html": "<p>Integrating dual RGBD cameras and 360° dual LiDAR with AI-driven multi-level navigation and obstacle avoidance, this robot ensures precise positioning and seamless, stable operation in complex industrial environments.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "24/7 Continuous Operation",
+          "html": "<p>With rapid battery swapping, auto-charging, and wired power options, the T150 delivers 24/7 uptime. This flexible power ecosystem optimizes factory throughput and maximizes production ROI.</p>",
+          "image": "assets/images/models/functions/pudu-t150-1.png"
+        }
+      ],
+      "spec_sections": [
+        {
+          "title": "Intuitive Operation, Instant Usability",
+          "html": "<p>The T150 features an onboard touchscreen powered by a proprietary OS for direct task dispatching, mode switching, and configuration, supporting button pagers, PUDU Link, and API integration for intuitive, efficient operation.</p>"
+        },
+        {
+          "title": "Aerospace-Grade Unibody Design",
+          "html": "<p>High-strength aerospace materials and unibody design ensure superior impact resistance. Built for intensive duty cycles, it guarantees 5 years of reliable, high-efficiency operation.</p>"
+        }
+      ],
+      "cms_slug": "autonomous-light-payload-industrial-delivery-robot"
+    },
+    {
+      "id": "pudu-t300",
+      "name": "PUDU T300",
+      "category": "industrial",
+      "description": "Autonomous industrial delivery for medium payloads.",
+      "image": "assets/images/models/pudu-t300.png",
+      "image_alt": "PUDU T300 medium-payload industrial delivery robot",
+      "title": "Autonomous Industrial Delivery Robot for Medium Payloads",
+      "summary_html": "<p>The PUDU T300 is an autonomous industrial delivery robot designed for efficient medium-payload transportation in factories and warehouses. It improves internal logistics efficiency and reduces manual material handling.</p>",
+      "overview_html": "<p>Autonomous robot for industrial logistics and transport. It improves internal logistics efficiency and reduces manual material handling.</p>",
+      "video": "UpEVbS84ak8",
+      "industries": [
+        "Manufacturing",
+        "Warehousing",
+        "Logistics",
+        "Automotive",
+        "Hospitals & Healthcare",
+        "Hotels",
+        "Exhibitions"
+      ],
+      "features": [
+        {
+          "name": "Autonomous Material Delivery",
+          "html": "<p>Enables reliable transportation of materials within industrial facilities.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Automatically delivers materials between workstations and zones.",
+          "image": "assets/images/models/functions/pudu-t300-1.png"
+        }
+      ],
+      "cms_slug": "autonomous-industrial-delivery-robot-for-medium-payloads"
+    },
+    {
+      "id": "pudu-t600",
+      "name": "PUDU T600",
+      "category": "industrial",
+      "description": "Heavy-payload autonomous industrial transport.",
+      "image": "assets/images/models/pudu-t600.png",
+      "image_alt": "PUDU T600 heavy-payload industrial transport robot",
+      "title": "Autonomous Heavy-Payload Industrial Delivery Robot",
+      "summary_html": "<p>The PUDU T600 is a heavy-payload autonomous delivery robot for industrial material transport.</p>",
+      "overview_html": "<p>Heavy-payload industrial AMR with 600kg capacity for warehouse/factory material transport, reducing delivery trips significantlyUnderride variant slides under racks (845×500×255mm, 65-70cm aisle navigation) for autonomous shelf-to-line pick-and-place operations</p>",
+      "video": "8MUqvy-QYbk",
+      "industries": [
+        "Manufacturing",
+        "Warehousing",
+        "Automotive",
+        "Logistics"
+      ],
+      "features": [
+        {
+          "name": "Heavy Load Transportation",
+          "html": "<p>Designed to carry large payloads safely and efficiently.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Autonomously transports heavy materials.",
+          "html": "<p>Adjusts speed and routing based on payload weight.</p>"
+        }
+      ],
+      "cms_slug": "autonomous-heavy-payload-industrial-delivery-robot"
+    },
+    {
+      "id": "pudu-t600-underride",
+      "name": "PUDU T600 Underride",
+      "category": "industrial",
+      "description": "Underride automation for heavy industrial transport.",
+      "image": "assets/images/models/pudu-t600-underride.png",
+      "image_alt": "PUDU T600 Underride heavy industrial transport robot",
+      "title": "Autonomous Underride Heavy-Payload Industrial Delivery Robot",
+      "summary_html": "<p>The PUDU T600 Underride is an autonomous industrial delivery robot designed to transport heavy carts and racks by driving underneath them. It enables seamless, efficient material movement in factories and warehouses, reducing manual handling and improving logistics efficiency.</p>",
+      "overview_html": "<p>Ultra-low profile (845×500×255mm) industrial AMR that slides under standard racks/shelves for autonomous 600kg lifting and transport. 12 h runtime (no-load), 2h fast charge, dynamic obstacle avoidance for unmanned shelf-to-line material handling</p>",
+      "video": "8MUqvy-QYbk",
+      "industries": [
+        "Manufacturing",
+        "Warehousing",
+        "Logistics",
+        "Automotive"
+      ],
+      "features": [
+        {
+          "name": "Underride Load Transportation",
+          "html": "<p>Drives underneath carts and racks to transport heavy payloads safely and efficiently.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Automatically aligns with, lifts, and transports carts",
+          "html": "<p>Automatically aligns with, lifts, and transports carts or racks to designated locations without manual intervention.</p>",
+          "image": "assets/images/models/functions/pudu-t600-underride-1.png"
+        }
+      ],
+      "cms_slug": "autonomous-underride-heavy-payload-industrial-delivery-robot"
+    },
+    {
+      "id": "pudu-d5-series",
+      "name": "PUDU D5 Series",
+      "category": "quadruped",
+      "description": "All-terrain autonomous quadruped robot series.",
+      "image": "assets/images/models/pudu-d5-series.png",
+      "image_alt": "PUDU D5 Series all-terrain quadruped robot",
+      "title": "Autonomus All-Terrain Quadruped Robot Series",
+      "summary_html": "<p>The PUDU D5 Series is an autonomous quadruped robot platform designed for all-terrain mobility in complex environments.</p>",
+      "overview_html": "<p>All-Terrain Mobility for Complex Environments</p>",
+      "video": "gH7DLaQlsuc",
+      "industries": [
+        "Inspection",
+        "Security",
+        "Research",
+        "Energy",
+        "Public Services"
+      ],
+      "features": [
+        {
+          "name": "Intuitive Interaction & Smart Follow",
+          "html": "Multimodal Interaction<p>D5 combines voice and gesture control with 10+ natural gestures, using deep-vision sensing and an 6-mic array. AI noise reduction and sound localization ensure accurate responses even in noisy environments.</p>"
+        },
+        {
+          "name": "Intelligent Follow",
+          "html": "<p>With dynamic obstacle avoidance and trajectory prediction, D5 follows users precisely in crowded spaces, adjusting its path in real time for smooth and safe movement.</p>"
+        }
+      ],
+      "functions": [
+        {
+          "title": "Remote Vision & Control, Always in Command",
+          "html": "<p>RCOS Remote Control System: Monitor real-time operating status and issue commands instantly. Video Feed: Live panoramic views from cameras give you full visibility of the on-site environment.</p>",
+          "image": "assets/images/models/functions/pudu-d5-series-1.png"
+        },
+        {
+          "title": "All-Weather Durability and Extreme Resilience",
+          "html": "<p>D5 series supports cold-start at -10°C, operates from -20°C to 55°C, and achieves IP67 ingress protection for dependable performance in rain, snow, dust, and fluctuating climate conditions.</p>",
+          "image": "assets/images/models/functions/pudu-d5-series-2.png"
+        }
+      ],
+      "spec_sections": [
+        {
+          "title": "PUDU D5",
+          "html": "<p>Standing Dimensions 900 × 543 × 572 mm (35.4* 21.4*22.5 in) Weight (with Battery) 61 kg (134.5 lbs) Computing Platform NVIDIA Jetson Orin AGX 64GB + RK3588 Perception Sensors Dual 3D LiDAR + Four Fisheye Cameras Maximum Joint Torque 165 Nm (121.7 lb·ft) Battery Capacity 1000 Wh Operating Time 2 ~ 2.5 h Continuous Walking Payload 20–30 kg (44–66 lbs) Climbing Capability Up to 80 cm (Up to 31.5 in) Maximum Step Height 30 cm (11.8 in) Slope Capability 25° ascent, 45° descent Operating Temperature –20°C to 55°C (–4°F to 131°F) Cold-Start Capability Below –10°C (Below 14°F) Ingress Protection IP67 Autonomous Navigation Supported Autonomous Following Supported Voice Interaction Suppor</p>"
+        },
+        {
+          "title": "PUDU D5-W",
+          "html": "<p>Standing Dimensions 900 mm × 543 mm × 572 mm (35.4* 21.4*22.5 in) Weight (with Battery) 62 kg (136.7 lbs) Computing Platform NVIDIA Jetson Orin AGX 64GB + RK3588 Perception Sensors Dual 3D LiDAR + Four Fisheye Cameras Maximum Joint Torque 165 Nm (121.7 lb·ft) Battery Capacity 1000 Wh Operating Time 2 ~ 3 h Continuous Walking Payload 20–30 kg (44–66 lbs) Climbing Capability Up to 80 cm (Up to 31.5 in) Maximum Step Height 25 cm (9.84 in) Slope Capability 30° ascent, 45° descent Operating Temperature –20°C to 55°C (–4°F to 131°F) Cold-Start Capability Below –10°C (Below 14°F) Ingress Protection IP67 Autonomous Navigation Supported Autonomous Following Supported Voice Interaction Supported</p>"
+        }
+      ],
+      "cms_slug": "autonomus-all-terrain-quadruped-robot-series"
+    }
+  ]
+}
