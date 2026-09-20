@@ -465,10 +465,82 @@ section {
     z-index: 1;
 }
 
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    gap: var(--spacing-2xl);
+    align-items: center;
+}
+
 .hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+    max-width: 640px;
+}
+
+.hero-eyebrow {
+    display: inline-block;
+    font-size: 0.8125rem;
+    font-weight: var(--font-weight-semibold);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+.hero-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.hero-product-image {
+    max-height: 480px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 26px 40px rgba(10, 14, 26, 0.22));
+}
+
+.hero-media-caption {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: var(--font-weight-semibold);
+    font-size: 0.9375rem;
+}
+
+.hero-media-caption:hover {
+    gap: 0.7rem;
+}
+
+/* Only the homepage hero's buttons align left; .hero-cta is reused inside
+   centred sections elsewhere, so the rule is scoped to the hero grid. */
+.hero-grid .hero-cta {
+    justify-content: flex-start;
+}
+
+@media (max-width: 968px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+        text-align: center;
+    }
+
+    .hero-content {
+        margin: 0 auto;
+    }
+
+    /* Robot above the text on narrow screens, as in the original layout */
+    .hero-media {
+        order: -1;
+    }
+
+    .hero-grid .hero-cta {
+        justify-content: center;
+    }
+
+    .hero-product-image {
+        max-height: 260px;
+    }
 }
 
 .hero-title {
